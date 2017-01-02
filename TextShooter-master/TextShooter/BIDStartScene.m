@@ -45,7 +45,7 @@ static SKAction *gameStartSound;
         self.backgroundColor = [SKColor greenColor];
         
         SKLabelNode *topLabel = [SKLabelNode labelNodeWithFontNamed:@"Courier"];
-        topLabel.text = @"TextShooter";
+        topLabel.text = @"X Shooter";
         topLabel.fontColor = [SKColor blackColor];
         topLabel.fontSize = 48;
         topLabel.position = CGPointMake(self.frame.size.width * 0.5,
