@@ -114,7 +114,7 @@ static SKAction *gameStartSound;
         _infoButton.horizontalAlignmentMode = SKLabelHorizontalAlignmentModeLeft;
         _infoButton.position = CGPointMake(self.frame.size.width * 0.02,
                                            self.frame.size.height * 0.02);
-        [self addChild:_infoButton];
+        //[self addChild:_infoButton];
         
         _moreButton = [SKLabelNode labelNodeWithFontNamed:@"Courier"];
         _moreButton.text = @"More games!";
@@ -124,7 +124,7 @@ static SKAction *gameStartSound;
         _moreButton.horizontalAlignmentMode = SKLabelHorizontalAlignmentModeCenter;
         _moreButton.position = CGPointMake(self.frame.size.width * 0.5,
                                            self.frame.size.height * 0.02);
-        [self addChild:_moreButton];
+        //[self addChild:_moreButton];
         
     }
     return self;
